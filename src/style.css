@@ -1,0 +1,21 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height: 250px;
+  width: 400px;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+#imgs:hover {
+  animation: rotate 1s infinite;
+}
